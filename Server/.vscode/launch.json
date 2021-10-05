@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "main",
+            "type": "node",
+            "request": "attach",
+            "port": 9229,
+            "address": "localhost",
+            "localRoot": "${workspaceFolder}/src/",
+            "remoteRoot": "${workspaceFolder}/src/",
+            "protocol": "inspector",
+            "restart": true
+        }
+    ]
+}
